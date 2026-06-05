@@ -1,7 +1,5 @@
 name: heart-disease-project
 
-conda_nmv: conda.yml
-
 entry_points:
-  main:
-    command: "python modelling.py"
+main:
+command: "python modelling.py"
