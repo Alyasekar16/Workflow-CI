@@ -44,6 +44,10 @@ def train_model():
         model = RandomForestClassifier(random_state=42)
         model.fit(X_train, y_train)
 
+        mlflow.sklearn.log_model(
+        sk_model=model,
+        artifact_path="model")
+
         #prediksi model
         y_pred = model.predict(X_test)
         
