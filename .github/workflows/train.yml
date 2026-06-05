@@ -26,5 +26,5 @@ jobs:
 
       - name: Run Model Project
         run: |
-          cd MLproject
+          cd MLProject
           mlflow run .
