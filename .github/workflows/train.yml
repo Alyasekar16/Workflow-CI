@@ -25,5 +25,5 @@ jobs:
           pip install scikit-learn
 
       - name: Run Model Project
-        run: |
-          mlflow run MLProject --env-manager local
+  run: |
+    mlflow run MLProject --env-manager local
