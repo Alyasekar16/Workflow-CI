@@ -18,7 +18,7 @@ def train_model():
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
     data_path = os.path.join(
-    BASE_DIR,"namadataset_preprocessing", "data_bersih.csv")
+    BASE_DIR, "heart_preprocessing.csv")
     
     if not os.path.exists(data_path):
         print(f"Error: File {data_path} tidak ditemukan!")
