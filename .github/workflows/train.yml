@@ -24,7 +24,7 @@ jobs:
           pip install pandas
           pip install scikit-learn
 
-      - name: Run Model Training
+      - name: Run Model Project
         run: |
           cd MLProject
-          python modelling.py
+          mlflow run .
