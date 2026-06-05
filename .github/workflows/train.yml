@@ -27,4 +27,4 @@ jobs:
       - name: Run Model Project
         run: |
           cd MLProject
-          mlflow run .
+          mlflow run . --env-manager local
